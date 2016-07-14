@@ -1,0 +1,88 @@
+<html>
+<head>
+    <meta charset='UTF-8'>
+</head>
+<body>
+    <div class="windows">
+        <input type="button" id="RP" value="Cоздать исполнителя" class="hidden">
+        <input type="button" id="RC" value="Регистрация клиента">
+        <input type="button" id="Exit" value="Выход" class="hidden">
+        <input type="button" id="Back" value="Главная" class="hidden">
+    </div>
+    <div class ='authorization'>
+        <label>
+            Ведите логин
+            <input type="text" id="Login" class="moi">
+        </label>
+        <br>
+        <input type="button" value="Зайти" id="auto">
+    </div>
+    <div class="application">
+        <ul class="list">
+            <li><strong>Имя:</strong></li>
+            <li><strong>Заявка:</strong></li>
+            <li><strong>Комментарий:</strong></li>
+        </ul>
+
+        <input type="button" value="Добавить комментарий" class="create">
+        <input type="button" id="RR" value="Назначить исполнителя" class="hidden">
+    </div>
+    <div class="TableApplications">
+        <table class="table">
+            <tr>
+                <th class="TH_Name">Имя</th>
+                <th class="TH_application"> Заявка</th>
+            </tr>
+        </table>
+        <input type='button' value="Добавить заявку" id="addtr" class="addtr hidden">
+    </div>
+    <div class="Comment moiblock">
+        <p class="moi">Добавьте комментарий</p>
+        <textarea> </textarea>
+        <br>
+        <input type="button" value="Добавить" class="AddComment">
+    </div>
+    <div class="Client moiblock">
+        <h2 align="center">Регистрация клиента</h2>
+        <label>
+            ведите имя
+            <input type="text" class="moi">
+        </label>
+        <br>
+        <input type="button" value="Добавиться" class="RegistrationName moi">
+    </div>
+    <div class="performer moiblock">
+        <h2 align="center">Добавления исполниетеля</h2>
+        <label>
+            ведите имя
+            <input type="text" class="moi">
+        </label>
+        <br>
+        <input type="button" id="RegistrationName" value="Добавть" class="moi">
+    </div>
+    <div class="editor moiblock">
+        <label>Ведите имя
+            <input type="text" class="Name moi" size="41">
+        </label>
+        <br>
+        <label>Ведите заявку
+            <input type="text" class="ticket moi" size="30">
+        </label>
+        <input type="button" value="Добавить" class="add">
+    </div>
+    <div class="DefineExecutor moiblock">
+        <h2>Назначения исполниетеля</h2>
+        <p class="moi">Веберите Заявку</p>
+        <select class="ClientList">
+        </select>
+        <br>
+        <p class="moi">выберите исполнителя</p>
+        <select class="Performer">
+        </select>
+        <br>
+        <input type="button" value="Добавить" class="moi">
+    </div>
+    <script type="text/javascript" src="bundle.js" charset="utf-8"></script>
+</body>
+
+</html>
