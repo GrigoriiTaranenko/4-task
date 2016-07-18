@@ -1,7 +1,7 @@
 /**
  * Created by Sergey on 09.07.2016.
  */
-
+var router=require('./Router');
 Work=require('./work');
 Table=require('./table');
 Addticket.prototype=Object.create(Work.prototype);
