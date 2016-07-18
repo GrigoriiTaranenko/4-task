@@ -27,7 +27,7 @@ Auth.prototype.auth = function () {
         });
     }
     else {
-        alert('Ты идиот!')
+        alert('Неправильно!')
     }
 };
 
